@@ -1,0 +1,24 @@
+{
+  "name": "etd-plt",
+  "version": "1.0.0",
+  "description": "Fedex ETD (Electronic Trade Document) and DHL PLT(Paperless Trade) country list.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metalheadcode/etd-plt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metalheadcode/etd-plt/issues"
+  },
+  "homepage": "https://github.com/metalheadcode/etd-plt#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
