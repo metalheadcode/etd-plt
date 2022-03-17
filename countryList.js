@@ -1,4 +1,4 @@
-export const countryList = {
+export default {
   etd: [
     { countryCode: "AF", inBound: true, outBound: true },
     { countryCode: "AL", inBound: true, outBound: false },

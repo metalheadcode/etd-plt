@@ -1,4 +1,4 @@
-import { countryList } from "./ETD-PLT/countryList.js";
+import countryList from "./countryList.js";
 
 const findByCountryCode = (countryCode, plt = true) => {
   if (plt) {
