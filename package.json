@@ -17,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/metalheadcode/etd-plt/issues"
   },
-  "homepage": "https://github.com/metalheadcode/etd-plt#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  }
+  "homepage": "https://github.com/metalheadcode/etd-plt#readme"
 }
