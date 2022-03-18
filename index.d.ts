@@ -5,8 +5,10 @@ declare module "etd-plt" {
     outBound: boolean;
   };
 
+  type Service = "etd" | "plt";
+
   export function findByCountryCode(
     countryCode: string,
-    plt: boolean
+    service: Service
   ): FindByCountryCode;
 }
