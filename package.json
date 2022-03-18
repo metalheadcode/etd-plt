@@ -1,6 +1,6 @@
 {
   "name": "etd-plt",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fedex ETD (Electronic Trade Document) and DHL PLT(Paperless Trade) country list.",
   "main": "index.js",
   "type": "module",
