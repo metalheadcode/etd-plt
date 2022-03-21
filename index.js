@@ -1,24 +1,20 @@
 import countryList from "./countryList.js";
 
-function isObjectEmpty(obj) {
-    return Object.keys(obj).length === 0;
-}
-
 const findByCountryCode = (countryCode, service) => {
     if (service === "plt") {
         const result = countryList.plt.find(
             (item) => item.countryCode === countryCode
         );
-        return isObjectEmpty(result)
+        return result !== undefined
             ? result
-            : `The ${countryCode}' is not available for FEDEX`;
-    } else {
+            : { info: `The ${countryCode} is not available for DHL` };
+    } else if (service === "etd") {
         const result = countryList.etd.find(
             (item) => item.countryCode === countryCode
         );
-        return isObjectEmpty(result)
+        return result !== undefined
             ? result
-            : `The ${countryCode}' is not available for DHL`;
+            : { info: `The ${countryCode} is not available for FEDEX` };
     }
 };
 
